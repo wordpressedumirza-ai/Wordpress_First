@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dream Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section>
+            <h1>My Website</h1>
+        </section>
+        <section>
+            <p>Home</p>
+            <p>About</p>
+            <p>Services</p>
+            <p onclick="login()">Login</p>
+            <button>SignUp</button>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h1 style="font-size: clamp(2px, 4vw, 80px); display: inline; line-height: 1.6; text-wrap: wrap;">Build Your Future</h1>
+            <h1 style="color: blue;font-size: clamp(2px, 4vw, 80px); display: inline;line-height: 1.6; text-wrap: wrap;">With Us</h1>
+            <p style="margin-top: 20px; font-size: clamp(2px, 2vw, 80px); display: inline; padding: 10px; line-height: 1.6; text-wrap: wrap;">
+                Learn new skills. explore opportunities and grow with us.
+            </p>
+            <div class="bt-bash">
+                <button style="background-color: blue; color: white;">Get Started</button>
+                <button>Learn More</button>
+            </div>
+        </section>
+        <section>
+            <img src="mpg.webp" alt="">
+        </section>
+        <div class="log">
+            <div class="log-card">
+                <h1 style="margin-top: 15px;">Login</h1>
+                <input type="email" style="margin-top: 30px;" placeholder="👤 Enter Email Address.....">
+                <input type="password" placeholder="🔒 Password">
+                <div class="log-forg" style="display: flex; align-items: center; justify-content: center; width: 100%; height: 30px;">
+                    <div class="f1">
+                        <input type="checkbox"> <p>Reminder Me</p>
+                    </div>
+                    <div class="f1">
+                        <a href="#">Forget Password</a>
+                    </div>
+                </div>
+                <button> <img src="Google.png" alt="404">Continue With Google</button>
+                <button style="background: blue; color: white;">Login</button>
+                <p>New User? <a href="#">SignIn</a></p>
+            </div>
+        </div>
+    </main>
+    <script src="logics.js"></script>
+</body>
+</html>
